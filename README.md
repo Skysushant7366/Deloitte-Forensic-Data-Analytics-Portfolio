@@ -1,7 +1,6 @@
 # Deloitte-Forensic-Data-Analytics-Portfolio
 Forensic investigation into operational telemetry and corporate equity auditing for Daikibo Industrials
 
-# Deloitte Forensic Data Analytics Portfolio
 
 ## 1. Professional Profile & Technical Narrative
 I am a Forensic Data Analyst specializing in operational telemetry and corporate equity auditing. This repository showcases my work for **Daikibo Industrials**, where I transformed raw, multi-level JSON schemas and complex Excel datasets into authoritative business intelligence. My expertise lies in bridging the gap between technical data engineering and executive-level decision-making through forensic investigation and advanced visualization.
