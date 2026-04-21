@@ -1,69 +1,60 @@
-Deloitte Forensic Data Analytics Portfolio
-1. Professional Profile & Technical Narrative
-I am a Forensic Data Analyst specializing in operational telemetry and corporate equity auditing, with a proven track record of distilling high-stakes business intelligence from fragmented data environments
-. Upon completing the Deloitte Australia Data Analytics simulation, I demonstrated the ability to architect data solutions for Daikibo Industrials, transforming raw multi-level JSON schemas and complex Excel datasets into authoritative insights
-. My expertise lies in bridging the gap between technical data engineering and executive-level decision-making through forensic investigation and advanced visualization
-.
+# Deloitte Forensic Data Analytics Portfolio
 
---------------------------------------------------------------------------------
-2. Core Technical Competency Matrix
-Category
-Skills
-Context
-Data Engineering
-Data Structures, Programming (Python), Computer Networking
-Applied to understand the data unification algorithms used to synthesize global telemetry into a single JSON file
-.
-Analysis & Visualization
-Tableau, Excel, Data Modeling, Spreadsheet Skills
-Leveraged Tableau for multi-factory downtime modeling and Excel for forensic pay equality classification using nested logical functions
-.
-Operational Strategy
-Log Analysis, Planning, Formal Communication
-Interpreted 10-minute interval telemetry messages to identify failure patterns and synthesize findings for the Forensic Tech team
-.
+## Professional Profile & Technical Narrative
+Forensic Data Analyst specializing in **operational telemetry** and **corporate equity auditing**. Proven track record distilling high-stakes business intelligence from fragmented data environments.
 
---------------------------------------------------------------------------------
-3. Project 1: Daikibo Machine Telemetry Analysis (Tableau)
-Context: The objective was to perform a large-scale analysis of operational telemetry for Daikibo Industrials to address critical machine reliability issues across four global manufacturing hubs: Tokyo (Meiyo), Osaka (Seiko), Berlin, and Shenzhen
-.
-Technical Execution & Methodology:
-Schema Ingestion: Handled the daikibo-telemetry-data.json.zip file, performing decompression and import of multi-level JSON schemas to ensure all data hierarchies were preserved
-.
-Calculated Measure Engineering: Developed a custom "Unhealthy" status measure. This logic assigned a weight of 10 to every unhealthy status, representing 10 minutes of potential downtime since the preceding message
-.
-Visualization Architecture: Developed "Down Time per Factory" and "Down Time per Device Type" bar charts to isolate outliers
-.
-Quantitative Findings:
-Osaka (Seiko) was identified as the factory with the highest failure rate (approx. 480 Unhealthy units), followed by Shenzhen
-.
-LaserWelders and LaserCutters were identified as the primary machine types driving operational downtime globally
-.
+Completed Deloitte Australia Data Analytics simulation, architecting data solutions for **Daikibo Industrials**—transforming raw multi-level JSON schemas and complex Excel datasets into authoritative insights. Expertise bridges technical data engineering with executive-level decision-making through forensic investigation and advanced visualization.
 
---------------------------------------------------------------------------------
-4. Project 2: Forensic Gender Pay Equality Audit (Excel)
-Context: Conducted a forensic investigation to audit the "level of gender pay equality" across global operations in response to internal complaints regarding gender-based salary inequality
-.
-Forensic Methodology:
-Nested Logic Classification: Implemented a forensic "Equality class" classification in Excel using nested IF statements to interpret the "Equality Score" (ranging from -100 to +100)
-.
-Classification Logic:
-Fair: Score between -10 and +10
-.
-Unfair: (Score between -20 and -10) OR (Score between +10 and +20)
-.
-Highly Discriminative: Score < -20 OR Score > +20
-.
-Impact: Provided a prioritized roadmap for corporate intervention by pinpointing job roles and factory locations with the most severe pay gaps requiring immediate action
-.
+---
 
---------------------------------------------------------------------------------
-5. Repository Contents
-Daikibo_Telemetry_Tableau_Dashboard.twb: Interactive Tableau workbook quantifying global operational risk
-.
-Task_5_Equality_Table_Solution.xlsx: Forensic audit featuring nested-logic classifications for pay equality
-.
-daikibo-telemetry-data.json.zip: Unified global telemetry logs used for forensic analysis
-.
+## Core Technical Competency Matrix
 
---------------------------------------------------------------------------------
+| Category | Skills | Context |
+|----------|--------|---------|
+| **Data Engineering** | Data Structures, Programming (Python), Computer Networking | Applied to understand data unification algorithms synthesizing global telemetry into single JSON file |
+| **Analysis & Visualization** | Tableau, Excel, Data Modeling, Spreadsheet Skills | Leveraged Tableau for multi-factory downtime modeling; Excel for forensic pay equality classification using nested logical functions |
+| **Operational Strategy** | Log Analysis, Planning, Formal Communication | Interpreted 10-minute interval telemetry messages to identify failure patterns and synthesize findings for Forensic Tech team |
+
+---
+
+## Project 1: Daikibo Machine Telemetry Analysis (Tableau)
+
+### Context
+Large-scale analysis of operational telemetry across four global manufacturing hubs: **Tokyo (Meiyo)**, **Osaka (Seiko)**, **Berlin**, and **Shenzhen**.
+
+### Technical Execution
+- **Schema Ingestion**: Decompressed and imported `daikibo-telemetry-data.json.zip`, preserving multi-level JSON hierarchies
+- **Calculated Measure**: Engineered custom **"Unhealthy"** status measure (weight of 10 = 10 minutes potential downtime)
+- **Visualization**: Built **"Down Time per Factory"** and **"Down Time per Device Type"** bar charts isolating outliers
+
+### Key Findings
+- **Osaka (Seiko)**: Highest failure rate (~480 Unhealthy units)
+- **Shenzhen**: Second highest failure rate
+- **LaserWelders & LaserCutters**: Primary drivers of global operational downtime
+
+---
+
+## Project 2: Forensic Gender Pay Equality Audit (Excel)
+
+### Context
+Forensic investigation auditing "level of gender pay equality" across global operations in response to internal complaints.
+
+### Forensic Methodology
+Implemented **"Equality class"** classification using nested IF statements based on **Equality Score** (-100 to +100):
+
+| Classification | Score Range |
+|----------------|-------------|
+| **Fair** | -10 to +10 |
+| **Unfair** | -20 to -10 OR +10 to +20 |
+| **Highly Discriminative** | < -20 OR > +20 |
+
+### Impact
+Delivered prioritized roadmap for corporate intervention, pinpointing job roles and factory locations requiring immediate action.
+
+---
+
+## Repository Contents
+
+- `Daikibo_Telemetry_Tableau_Dashboard.twb` — Interactive Tableau workbook quantifying global operational risk
+- `Task_5_Equality_Table_Solution.xlsx` — Forensic audit with nested-logic pay equality classifications
+- `daikibo-telemetry-data.json.zip` — Unified global telemetry logs for forensic analysis
